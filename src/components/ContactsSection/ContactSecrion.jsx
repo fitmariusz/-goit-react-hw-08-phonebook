@@ -6,7 +6,7 @@ import { ContactList } from 'components/ContactsList/ContactsList'
 export const ContactsSection = () => { 
     return <>
       <div className={css.contener}>
-        <h2>Contact list</h2>
+        <h2 className={css.h2}>Contact list</h2>
       <ContactSearch/>
       <ContactList/>
       </div>

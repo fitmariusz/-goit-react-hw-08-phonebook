@@ -3,3 +3,8 @@
     flex-direction: column;
     margin: 0 50px;
 }
+.h2 {
+    display: block;
+    text-align: center;
+    color: burlywood;
+}
