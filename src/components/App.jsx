@@ -51,17 +51,16 @@ export const App = () => {
   const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
 
-  useEffect(() => {
-    dispatch(refreshUser());
-  }, [dispatch]);
-  // return <>
-  // <Contacts/>
-//  </>
+  // useEffect(() => {
+  //   dispatch(refreshUser());
+  // }, [dispatch]);
+  
+  
   return isRefreshing ? (
     <b>Refreshing user...</b>
   ) : (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/" element={<Layout/>}>
         <Route index element={<Home />} />
         <Route
           path="/register"

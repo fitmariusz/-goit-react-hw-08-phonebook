@@ -1,16 +1,17 @@
 .form {
     display: flex;
-        margin: 50px auto;
-        flex-direction: column;
-        padding: 60px;
-        background-color: black;
-        width: 500px;
-        border-radius: 100px;
-        box-shadow: rgba(160, 158, 161, 0.25) 0px 50px 100px -20px,
-            rgba(255, 255, 255, 0.3) 0px 0px 60px -30px,
-            rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
-}
+    margin: 50px auto;
+    flex-direction: column;
+    padding: 60px;
+    background-color: black;
+    width: 500px;
+    border-radius: 100px;
+    box-shadow: rgba(160, 158, 161, 0.25) 0px 50px 100px -20px,
+        rgba(255, 255, 255, 0.3) 0px 0px 60px -30px,
+        rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 
+
+}
 
 .input {
     padding: 5px;
@@ -19,7 +20,6 @@
     background-color: black;
     color: cadetblue;
 }
-
 .input:valid {
     border-color: green;
     box-shadow: rgb(30, 247, 1) 0px 0px 0px 1px,

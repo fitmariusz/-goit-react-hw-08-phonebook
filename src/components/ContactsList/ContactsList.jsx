@@ -20,7 +20,7 @@ export const ContactList = () => {
               <li className={css.li} key={contact.id}><span className={css.span}>{contact.name}</span><span className={css.span} >{contact.number}</span>
                 <button className={css.button} onClick={() => onDelete(contact.id)} required>Delete</button></li>)
             :
-          <p>No contacts....</p>}
+          <p className={css.h2}>No contacts....</p>}
       </ul>
     </>);
 };

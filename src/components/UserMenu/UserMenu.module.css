@@ -2,8 +2,23 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    
 }
 
 .username {
-    font-weight: 700;
+    font-weight: 500;
+    color: burlywood;
+}
+
+.button {
+    padding: 5px;
+    margin: 10px auto;
+    color: rgb(30, 247, 1);
+    border-radius: 10px;
+    border-color: black;
+    background-color: black;
+    /* border-color: green; */
+    box-shadow: rgba(1, 58, 247, 0.405) 0px 0px 5px 1px,
+        rgba(1, 58, 247, 0.405) 0px 0px 20px 1px,
+        rgba(1, 58, 247, 0.405) 0px 0px 0px inset;
 }
